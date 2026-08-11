@@ -13,7 +13,7 @@ st.header('Datos de evaluación')
 
 def user_input_features():
   # Entrada
-  sepal_length_cm = st.number_input('Longitud del Sépalo:', min_value=0.0, max_value=5.0, value = 1.0, step = 0.1)
+  sepal_length_cm = st.number_input('Longitud del Sépalo:', min_value=0.0, max_value=8.0, value = 1.0, step = 0.1)
   sepal_width_cm = st.number_input('Ancho del Sépalo:', min_value=0.0, max_value=5.0, value = 0.0, step = 0.1)
   petal_length_cm = st.number_input('Longitud del Pétalo:', min_value=0.0, max_value=7.0, value = 0.0, step = 0.1)
   petal_width_cm = st.number_input('Ancho del Pétalo:',min_value=0.0, max_value=3.0, value = 0.0, step = 0.1)
